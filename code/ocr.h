@@ -20,7 +20,7 @@ enum direction{
 
 
 char **file_to_list(char *filename);
-int *search(char **grid, int *initial, enum direction d, char *word);
+int *search(char **grid, int *initial, char *word);
 enum direction next_letter(char ** grid, int *initial, char *word);
 int *solver(char *filename, char *word );
 
